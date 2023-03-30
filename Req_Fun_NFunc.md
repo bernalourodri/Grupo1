@@ -59,3 +59,8 @@
 
 * Visualização
 * VS-1 O sistema deverá ser feito para visualização web.
+
+
+# *Requisito Excitante:*
+
+* O Dashboard poderá fazer uma previsão através de inteligência artificial quais serão os chamados mais recorrentes para o próximo mês, baseado nos chamados anteriores.
