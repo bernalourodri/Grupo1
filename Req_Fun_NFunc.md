@@ -19,7 +19,7 @@
 * Quantidade de chamados por empresa ? (perguntar)
 * Discriminar os chamados por tipos(comercial, operacional e tecnologia)?
 * Discriminar os chamados técnicos por tipo de problemas
-* RF6 O sistema deve ter como entrada nos chamados: 
+* RF9 O sistema deve ter como entrada nos chamados: 
 * Data de abertura do chamado
 * Nome do funcionário
 * Cargo do funcionário
