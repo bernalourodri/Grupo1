@@ -55,7 +55,7 @@
 * O sistema deverá usar um banco de dados modelo relacional e o banco de dados utilizado será o MariaDB.  
 
 * Integração
-* O sistema NÃO deverá possuir integração com outros sistemas da Microméros
+* O sistema NÃO deverá possuir integração com outros sistemas da Microméros.
 
 * Visualização
 * O sistema deverá ser feito para visualização web.
