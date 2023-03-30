@@ -36,19 +36,13 @@
 * DS-1 O sistema deverá ficar disponível conforme acordado na SLA.
 
 * Eficiência
-* EF-1 O sistema deve aguentar uma carga de um nuemro a ser questionado ainda de chamados sem sair do ar. 
-
-* Desempenho
-* DP-1 O sistema deve ser capaz de processar e gerenciar rapidamente os chamados, de forma a garantir a satisfação do cliente.
+* EF-1 O sistema deve aguentar uma carga de um numero a ser questionado de chamados sem sair do ar. 
 
 * Ecalabilidade
 * EC-1 O sistema deve ser projetado para suportar até sete(7) usuários simultâneos. // Caso um oitavo usuário tente se conectar o que o sistema deverá mostrar ?
 
 * Usabilidade
 * US-1 O sistema deve ser fácil de usar e intuitivo para os usuários, A tela de apresentação do menu deve conter apenas as opções pertinentes para cada usuário.
-
-* Suporte
-* SP1-1 O sistema deve oferecer suporte aos usuários. // Este suporte será dado via telefone , online(TeamViwer), email.
 
 * Plataforma
 * PL-1 O sistema deverá ser desenvolvido em React
