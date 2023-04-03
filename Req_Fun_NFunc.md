@@ -8,7 +8,7 @@
 * Usuário a nível de tomada de decisão(Gerencia e Diretoria)
 * Usuário cliente. O usuário cliente é o cliente da Microméros, este nível de usuário deverá somente ter acesso de visualização dos seus próprios chamados. 
 * RF3 O sistema deve guardar informação em Log
-* RF4 O sistema deve definir o nível de criticidade do chamado. O chamado pode ter como status aberto, expirado, finalizado. Os chamados em aberto são aqueles chamados que ainda não foram solucionados ou a solução está em andamento. O chamado expirado é aquele chamado que não foi solucionado, e o tempo de solução definido pela SLA foi esgotado. O chamado finalizado, é aquele chamado que foi concluído. Esses chamados devem ser convertidos em números para compor um dashboard, para que a diretoria possa ter métricas para tomadas de decisão na empresa.
+* RF4 O sistema deve definir o nível de criticidade do chamado. O chamado pode ter como status aberto, expirado, finalizado. Os chamados em aberto são aqueles chamados que ainda não foram solucionados ou a solução está em andamento. O chamado expirado é aquele chamado que não foi solucionado, e o tempo de solução definido pela SLA foi esgotado. Para chamados expirados devemos colocar uma exclamação em vermelho para chamar a atenção do usuário. O chamado finalizado, é aquele chamado que foi concluído. Esses chamados devem ser convertidos em números para compor um dashboard, para que a diretoria possa ter métricas para tomadas de decisão na empresa.
 * RF5 O sitema deve guardar chamados em aberto e atender o chamado no tempo acordado com o SLA, definido pela criticidade do chamado.
 * RF6 O sistema deve guardar chamados em andamentos
 * RF7 O sistema deve guardar chamados finalizados por dia/semana/mes
