@@ -13,18 +13,18 @@
 * RF6 O sistema deve guardar chamados em andamentos
 * RF7 O sistema deve guardar chamados finalizados por dia/semana/mes
 * RF8 O sistema deve apresentar as informações em Dashboard para cargos tomadores de decisão(Diretoria). O Dashboard deve conter as seguintes métricas inclusive com visualização em gráficos:
-* Números de chamados em abertos ?
-* Números de chamados expirados ?
-* Números de chamados finalizados ?
-* Quantidade de chamados por empresa ? (perguntar)
-* Discriminar os chamados por tipos(comercial, operacional e tecnologia)?
-* Discriminar os chamados técnicos por tipo de problemas
+    * Números de chamados em abertos ?
+    * Números de chamados expirados ?
+    * Números de chamados finalizados ?
+    * Quantidade de chamados por empresa ? (perguntar)
+    * Discriminar os chamados por tipos(comercial, operacional e tecnologia)?
+    * Discriminar os chamados técnicos por tipo de problemas
 * RF9 O sistema deve ter como entrada nos chamados: 
-* Data de abertura do chamado
-* Nome do funcionário
-* Cargo do funcionário
-* Campo de descrição do chamado
-* Botões de enviar chamado e atualizar chamado
+    * Data de abertura do chamado
+    * Nome do funcionário
+    * Cargo do funcionário
+    * Campo de descrição do chamado
+    * Botões de enviar chamado e atualizar chamado
 
 // Como o cliente pede para abrir um chamado ( Entra em contato com quem ?)
 // Definir tipos de chamados
