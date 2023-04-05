@@ -19,7 +19,7 @@
 * Quantidade de chamados por empresa ? (perguntar)
 * Discriminar os chamados por tipos(comercial, operacional e tecnologia)?
 * Discriminar os chamados técnicos por tipo de problemas
-* RF6 O sistema deve ter como entrada nos chamados: 
+* RF9 O sistema deve ter como entrada nos chamados: 
 * Data de abertura do chamado
 * Nome do funcionário
 * Cargo do funcionário
@@ -36,10 +36,7 @@
 * DS-1 O sistema deverá ficar disponível conforme acordado na SLA.
 
 * Eficiência
-* EF-1 O sistema deve aguentar uma carga de um nuemro a ser questionado ainda de chamados sem sair do ar. 
-
-* Desempenho
-* DP-1 O sistema deve ser capaz de processar e gerenciar rapidamente os chamados, de forma a garantir a satisfação do cliente.
+* EF-1 O sistema deve aguentar uma carga de um numero a ser questionado de chamados sem sair do ar. 
 
 * Ecalabilidade
 * EC-1 O sistema deve ser projetado para suportar até sete(7) usuários simultâneos. // Caso um oitavo usuário tente se conectar o que o sistema deverá mostrar ?
@@ -47,15 +44,17 @@
 * Usabilidade
 * US-1 O sistema deve ser fácil de usar e intuitivo para os usuários, A tela de apresentação do menu deve conter apenas as opções pertinentes para cada usuário.
 
-* Suporte
-* SP1-1 O sistema deve oferecer suporte aos usuários. // Este suporte será dado via telefone , online(TeamViwer), email.
-
 * Plataforma
-* O sistema deverá ser desenvolvido em React
-* O sistema deverá usar um banco de dados modelo relacional e o banco de dados utilizado será o MariaDB.  
+* PL-1 O sistema deverá ser desenvolvido em React
+* PL-2 O sistema deverá usar um banco de dados modelo relacional e o banco de dados utilizado será o MariaDB.  
 
 * Integração
-* O sistema NÃO deverá possuir integração com outros sistemas da Microméros.
+* IN-1 O sistema NÃO deverá possuir integração com outros sistemas da Microméros
 
 * Visualização
-* O sistema deverá ser feito para visualização web.
+* VS-1 O sistema deverá ser feito para visualização web.
+
+
+# *Requisito Excitante:*
+
+* O Dashboard poderá fazer uma previsão através de inteligência artificial quais serão os chamados mais recorrentes para o próximo mês, baseado nos chamados anteriores.
