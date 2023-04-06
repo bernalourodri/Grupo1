@@ -38,7 +38,7 @@
 * Eficiência
 * EF-1 O sistema deve aguentar uma carga de um numero a ser questionado de chamados sem sair do ar. 
 
-* Ecalabilidade
+* Escalabilidade
 * EC-1 O sistema deve ser projetado para suportar até sete(7) usuários simultâneos. // Caso um oitavo usuário tente se conectar o que o sistema deverá mostrar ?
 
 * Usabilidade
