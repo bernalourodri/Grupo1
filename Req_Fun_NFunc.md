@@ -30,24 +30,23 @@
 
 # *Requisito Não Funcional:*
 
-* Disponibilidade:
-* DS-1 O sistema deverá ficar disponível conforme acordado na SLA.
+Disponibilidade:
+.DS1 O sistema deverá ficar disponível conforme acordado na SLA.
 
-* Escalabilidade
-* EC-1 O sistema deve ser projetado para suportar até sete(7) usuários simultâneos. // Caso um oitavo usuário tente se conectar o que o sistema deverá mostrar ?
+Usabilidade
+.US1 A tela de apresentação do menu deve conter apenas as opções pertinentes para cada usuário.
 
-* Usabilidade
-* US-1 A tela de apresentação do menu deve conter apenas as opções pertinentes para cada usuário.
+Plataforma
+.PL1 O sistema deverá ser desenvolvido em React.
+.PL2 O sistema deverá usar um banco de dados modelo relacional e o banco de dados utilizado será o MariaDB.
 
-* Plataforma
-* PL-1 O sistema deverá ser desenvolvido em React
-* PL-2 O sistema deverá usar um banco de dados modelo relacional e o banco de dados utilizado será o MariaDB.  
+Integração
+.IN1 O sistema NÃO deverá possuir integração com outros sistemas da Microméros.
 
-* Integração
-* IN-1 O sistema NÃO deverá possuir integração com outros sistemas da Microméros
+Visualização
+.VS1 O sistema deverá ser feito no conceito Mobile First.
 
-* Visualização
-* VS-1 O sistema deverá ser feito no conceito Mobile First
+
 
 
 # *Requisito Excitante:*
