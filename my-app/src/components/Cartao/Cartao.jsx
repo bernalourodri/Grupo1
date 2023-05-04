@@ -1,12 +1,12 @@
 
+import { Input } from "reactstrap";
 import { Container, Descricao, Momento, Simbolo } from "./style";
 
 const Cartao = (props) => (
     <Container>
-        <Simbolo>{props.simb}</Simbolo>
-        <Descricao>a
-        </Descricao>
-        <Momento>{props.data}</Momento>
+        
+        <input style = "name"></input>
+        
     </Container>
 );
 
