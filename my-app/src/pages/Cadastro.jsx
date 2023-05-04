@@ -1,5 +1,5 @@
 
-import Cartao from "../Cartao/Cartao";
+import Cartao from "../components/Cartao/Cartao";
 import { Link } from 'react-router-dom';
 import Menu from "../Menu/Menu";
 import background from "../FotoHtml/fotoHtml.jpg"

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Menu from "../Menu/Menu";
-import Cartao from "../Cartao/Cartao";
-import Checkbox from "../Checkbox/Checkbox"
+import Cartao from "../components/Cartao/Cartao";
+import Checkbox from "../components/Checkbox/Checkbox"
 const Sobre = () => (
 <>
 <Menu />
