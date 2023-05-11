@@ -10,8 +10,6 @@ function App() {
     <div>
       <Menu />
       <Login />
-    <Checkbox />
-    
     </div>
     
   )

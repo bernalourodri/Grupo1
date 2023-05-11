@@ -3,16 +3,16 @@ import Menu from "../components/Menu/Menu";
 import Chamados from "../components/Chamados/Chamados";
 import Checkbox from "../components/Checkbox/Checkbox"
 
-function app(){
+function App(){
     
     return(
         <div>
             <Menu />
 
     <Chamados />    
-    <Checkbox />
+   
         </div> 
     )
 }
 
-export default app;
+export default App;

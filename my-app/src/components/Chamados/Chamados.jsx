@@ -4,17 +4,21 @@ function Chamados(){
     return(
         <div> 
        
-    <h1>Abertura de Chamados</h1>
+    <h2>Abertura de Chamados</h2>
     <div style={{display: 'flex'}}>
-    <p>Título</p>
+    <h2>Título</h2>
     <input type="name" /><input/>
-    <p>Usuário</p>
+    <h2>Usuário</h2>
     <input type="name" /><input/>
+    <h2>Descriçao</h2>     <input type="name" /><input/>
     </div>
     < div style={{display: 'flex'}}>
     <p>Pessoa Responsável</p>
     <input type="name" /><input/>
-    <p>Departamento enviado</p>    <p>Tecnologia</p> 
+    <h2>Departamento enviado</h2>    <p>Tecnologia</p> <p>Comercial</p> <p>Operação</p>
+    <h2>Nível de Prioridade</h2>    <p>Crítico</p> <p>Alto</p> <p>Médio</p> <p>Baixo</p>
+
+    
       </div>
     </div>
     

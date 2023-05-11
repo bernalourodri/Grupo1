@@ -2,7 +2,7 @@ import Dashboards from "../components/Dashboards/Dashboards";
 
 import Menu from "../components/Menu/Menu"
 
-function app(){
+function App(){
     
     return(
         <div>
@@ -12,4 +12,4 @@ function app(){
     )
 }
 
-export default app;
+export default App;
