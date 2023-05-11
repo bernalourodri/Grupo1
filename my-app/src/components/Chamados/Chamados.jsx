@@ -14,7 +14,7 @@ function Chamados(){
     < div style={{display: 'flex'}}>
     <p>Pessoa Responsável</p>
     <input type="name" /><input/>
-    <p>Departamento enviado</p>    <p>Tecnologia</p>
+    <p>Departamento enviado</p>    <p>Tecnologia</p> 
       </div>
     </div>
     

@@ -1,12 +1,15 @@
-import Dashboard from "../components/Dashboard/Dashboard_c"
+import Dashboards from "../components/Dashboards/Dashboards";
+
 import Menu from "../components/Menu/Menu"
-function Dashboard_c(){
+
+function app(){
+    
     return(
         <div>
             <Menu />
-            <Dashboard_c />
+            <Dashboards />
         </div> 
     )
 }
 
-export default Dashboard;
+export default app;
