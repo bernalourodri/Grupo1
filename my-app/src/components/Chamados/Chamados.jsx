@@ -21,7 +21,6 @@ function Chamados(){
     
       </div>
     </div>
-    
     )
 }
 export default Chamados ;
