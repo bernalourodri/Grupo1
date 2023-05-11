@@ -6,7 +6,7 @@ const Menu = () =>(
         <Link to ="sobre">Abertura de chamado</Link>
         <Link to ="/">Tela de login</Link>
         <Link to = "cadastro">Cadastro</Link>
-    </MeuNav>
+
     
 )
 
