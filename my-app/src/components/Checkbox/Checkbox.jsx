@@ -10,9 +10,9 @@ function Checkbox() {
         <div>
         <label>
             <input type="checkbox" checked={isChecked} onChange={handleCheckboxChange} />
-            Check this box
+            Lembrar de mim
         </label>
         </div>
     );
 }
-export default Checkbox
+export default Checkbox;
