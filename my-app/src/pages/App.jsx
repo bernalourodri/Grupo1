@@ -7,12 +7,12 @@ import Login from '../components/Login/Login';
 function App() {
   return (
  
-    <body>
+    <div>
       <Menu />
       <Login />
     <Checkbox />
     
-    </body>
+    </div>
     
   )
 }

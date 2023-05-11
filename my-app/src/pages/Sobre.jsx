@@ -1,26 +1,14 @@
 import { Link } from "react-router-dom";
 import Menu from "../components/Menu/Menu";
-import Cartao from "../components/Cartao/Cartao";
+
 import Checkbox from "../components/Checkbox/Checkbox"
 const Sobre = () => (
 <>
-<Menu />
+    <Menu />
 
-<h1>Abertura de Chamados</h1>
-
-<div style={{display: 'flex'}}>
-    <p>Título</p>
-    <Cartao />
-    <p>Usuário</p>
-    <Cartao />
-</div>
-
-<div style={{display: 'flex'}}>
-    <p>Pessoa Responsável</p>
-    <Cartao />
-    <p>Departamento enviado</p>    <p>Tecnologia</p>
+    <Chamados />    
     <Checkbox />
-</div>
+
 
 </>
 )

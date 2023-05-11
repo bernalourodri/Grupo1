@@ -7,7 +7,7 @@ import background from "../FotoHtml/fotoHtml.jpg"
 function App(){
     return(
         <body>
-            <div style={{ backgroundImage: `url(${background})` }}>
+           
             <Menu />
             <p>Nome</p>
             <Cartao />
@@ -18,7 +18,7 @@ function App(){
             <p>Permições do usuário</p>
             <Cartao />
             <button><Link to ="/">Cadastrar</Link></button>
-            </div>
+          
         
         </body>
         
