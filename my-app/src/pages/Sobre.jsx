@@ -1,16 +1,18 @@
 import { Link } from "react-router-dom";
 import Menu from "../components/Menu/Menu";
 import Chamados from "../components/Chamados/Chamados";
-
 import Checkbox from "../components/Checkbox/Checkbox"
-const Sobre = () => (
-<>
-    <Menu />
+
+function App(){
+    
+    return(
+        <div>
+            <Menu />
 
     <Chamados />    
-    <Checkbox />
+   
+        </div> 
+    )
+}
 
-
-</>
-)
-export default Sobre;
+export default App;
