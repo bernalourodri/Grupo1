@@ -1,20 +1,18 @@
 import Menu from "../Menu/Menu";
 import { MeuNav } from "./style";
-import { Container, FormContainer, Label, Input, ErrorMessage, SubmitButton, Title} from "./style";
+import { Container, FormContainer, Input, ErrorMessage, Button, Title} from "./style";
 
 function Cadastro(){
     return(
-        <Container>
-      <FormContainer>
-        <Title>Cadastro</Title>
-        <Label>Nome:</Label>
-        <Input type="text" />
-        <Label>Email:</Label>
-        <Input type="email" />
-        <Label>Senha:</Label>
-        <Input type="password" />
-        <SubmitButton>Cadastrar</SubmitButton>
-      </FormContainer>
+      <Container>
+        <FormContainer>
+          <h1>Cadastro</h1>
+          <Input type="text" placeholder="Nome" />
+          <Input type="text" placeholder="Email" />
+          <Input type="text" placeholder="Senha" />
+          <Input type="text" placeholder="Permissões do usuário" />
+          <Button>Cadastro</Button>
+        </FormContainer>
     </Container>
         
     )
