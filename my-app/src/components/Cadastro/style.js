@@ -58,5 +58,13 @@ const Title = styled.h1`
   margin-bottom: 20px;
 `;
 
+const Drop = styled.select`
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 25px;
+  border: solid 0.5px grey;
+`;
 
-export {Container, FormContainer, Input, ErrorMessage, Button, Title}
+
+export {Container, FormContainer, Input, ErrorMessage, Button, Title,Drop}
