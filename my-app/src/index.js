@@ -15,17 +15,17 @@ const rotas = createBrowserRouter([
   }
   ,
   {
-    path:"sobre",
+    path:"/sobre",
     element:<Sobre />
   }
   ,
   {
-    path:"cadastro",
+    path:"/cadastro",
     element:<Cadastro />
   }
   ,
   {
-    path:"dashboard",
+    path:"/dashboard",
     element:<Dashboard />
   }
 

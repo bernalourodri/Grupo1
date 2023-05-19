@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Login from "./Login";
+import Login from "./Chamados";
 
 const tamTablet = 768;
 
@@ -19,6 +19,7 @@ const Container = styled.div`
 const FormContainer = styled.div`
   padding: 40px;
   border-radius: 25 px;
+  align-items: left;
   background-color: #fff;
 `;
 
@@ -28,6 +29,7 @@ const Input = styled.input`
   padding: 10px;
   border-radius: 25px;
   border: solid 0.5px grey;
+  
 `;
 
 const Button = styled.button`
@@ -38,14 +40,21 @@ const Button = styled.button`
   background-color: #264D70;
   color: #fff;
   cursor: pointer;
+  font-size: 22px;
 
   &:hover {
-    background-color: #264D99;
+    background-color: blue;
   }
 `;
 
+const Descr = styled.input`
+  width: 100%;
+  height: 150px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 25px;
+  border: solid 0.5px grey;
+`;
 
 
-
-
-export {Container, FormContainer, Input, Button, tamTablet}
+export {Container, FormContainer, Input, Button, tamTablet, Descr}
