@@ -1,5 +1,4 @@
 import Dashboards from "../components/Dashboards/Dashboards";
-
 import Menu from "../components/Menu/Menu"
 
 function App(){
@@ -8,6 +7,9 @@ function App(){
         <div>
             <Menu />
             <Dashboards />
+            
+            
+            
         </div> 
     )
 }

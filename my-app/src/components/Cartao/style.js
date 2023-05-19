@@ -1,25 +1,25 @@
 import styled from "styled-components";
 
-const Container = styled.div`
-    border-radius : 5px;
-    border: solid 1px black;
-
-    display: flex;
-    flex-direction: row;
-    column-gap: 1em;
-    width: 35%;
-   
-   margin: 5px;
+const CardContainer = styled.div`
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 `;
 
+const CardImage = styled.img`
+  width: 100%;
+  height: auto;
+  margin-bottom: 16px;
+`;
 
-const Input = styled.div`
-    
+const CardTitle = styled.h2`
+  font-size: 20px;
+  margin-bottom: 8px;
+`;
 
-`
+const CardDescription = styled.p`
+  font-size: 14px;
+`;
 
-
-
-
-
-export{ Container, Input}
+export {CardContainer, CardImage, CardTitle, CardDescription}
