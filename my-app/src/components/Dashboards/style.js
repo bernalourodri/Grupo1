@@ -1,5 +1,5 @@
 import React from 'react';
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
+import {BarChart,Bar, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
 
 function Chart() {
   const data = [
@@ -22,6 +22,33 @@ function Chart() {
   );
 }
 
-export default Chart;
+
+function Chart2() {
+  const data = [
+    { name: 'A', value: 10 },
+    { name: 'B', value: 20 },
+    { name: 'C', value: 15 },
+    
+  ];
+
+  return (
+    <BarChart width={400} height={300} data={data}>
+      <XAxis dataKey="name" />
+      <YAxis />
+      <Tooltip />
+      <Bar dataKey="value" fill="#8884d8" />
+    </BarChart>
+  );
+}
+
+
+
+
+
+
+
+
+
+export  {Chart,Chart2};
 
   
