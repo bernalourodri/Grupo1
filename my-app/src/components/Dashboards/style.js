@@ -1,5 +1,6 @@
 import React from 'react';
-import {BarChart,Bar, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
+import {BarChart,Bar, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend ,PieChart, Pie, Cell} from 'recharts';
+import styled from 'styled-components';
 
 function Chart() {
   const data = [
@@ -41,14 +42,42 @@ function Chart2() {
   );
 }
 
+function Chart3(){
+  const data = [
+    { name: 'Muito Satisfeito', value: 12 },
+    { name: 'Satisfeito', value: 40},
+    { name: 'Não Satisfeito', value: 4},
+  ];
+  
+  const COLORS = ['#FF6384', '#36A2EB', '#FFCE56'];
+  
+ 
+    return (
+      <PieChart width={400} height={400}>
+        <Pie
+          data={data}
+          dataKey="value"
+          nameKey="name"
+          cx="50%"
+          cy="50%"
+          outerRadius={80}
+          fill="#8884d8"
+        >
+          {data.map((entry, index) => (
+            <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+          ))}
+        </Pie>
+        <Legend />
+      </PieChart>
+    );
+  };
+
+  const Container = styled.div`
+  display: flex;
+`;
 
 
 
-
-
-
-
-
-export  {Chart,Chart2};
+export  {Chart,Chart2,Chart3,Container};
 
   

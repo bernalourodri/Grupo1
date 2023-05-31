@@ -11,7 +11,7 @@ function App(){
            <Header />
             <Menu />
 
-    <Chamados />    
+         <Chamados />    
    
         </div> 
     )
