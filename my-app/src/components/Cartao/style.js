@@ -1,25 +1,41 @@
 import styled from "styled-components";
 
-const CardContainer = styled.div`
-  background-color: #f5f5f5;
-  border-radius: 4px;
-  padding: 16px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+const Container = styled.div`
+    border-radius: 5px;
+    border: solid 1px black;
+
+    display: flex;
+    flex-direction: column;
+    column-gap: 1em;
+
+    margin: 5px;
+
+    @media screen and ( max-width: 768px){
+        flex-direction: row;
+    }
 `;
 
-const CardImage = styled.img`
-  width: 100%;
-  height: auto;
-  margin-bottom: 16px;
+const Simbolo = styled.span`
+    font-weight: bolder;
+    text-align: center;
+    font-size: x-large;
+
+    @media screen and (max-width: 768px){
+        font-size: large;
+    }
 `;
 
-const CardTitle = styled.h2`
-  font-size: 20px;
-  margin-bottom: 8px;
+const Descricao = styled.span`
+    font-style: italic;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: 1.5em;
 `;
 
-const CardDescription = styled.p`
-  font-size: 14px;
+const Momento = styled.span`
+    font-family: monospace;
 `;
 
-export {CardContainer, CardImage, CardTitle, CardDescription}
+export { Container, Simbolo, Descricao, Momento };

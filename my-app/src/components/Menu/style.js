@@ -1,12 +1,24 @@
 import styled from "styled-components";
 
 const MeuNav = styled.nav`
-    display: flex;
     flex-direction: row;
     gap: 2em;
+    padding: 10px;
+    display: flex;
+    color: #264D70;
+    justify-content: center;
+    align-items: center;
 
     a{
     text-decoration: none;
 }
 `;
-export{ MeuNav } ;
+
+
+
+const Container = styled.div`
+
+color: white;
+`
+
+export{ MeuNav,Container} ;

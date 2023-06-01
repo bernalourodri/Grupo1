@@ -7,6 +7,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Sobre from './pages/Sobre';
 import Cadastro from './pages/Cadastro';
 import Dashboard from './pages/Dashboard';
+import ChamadosEMA from './pages/ChamadosEMA';
 
 const rotas = createBrowserRouter([
   {
@@ -28,7 +29,11 @@ const rotas = createBrowserRouter([
     path:"/dashboard",
     element:<Dashboard />
   }
-
+  ,
+  {
+    path:"/chamados",
+    element:<ChamadosEMA />
+  }
 ])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

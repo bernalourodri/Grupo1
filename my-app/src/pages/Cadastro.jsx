@@ -8,7 +8,7 @@ import Header from "../components/Header/Header";
 function App(){
   
     return(
-        <body>
+        <div>
           
            
             <Header />
@@ -18,7 +18,7 @@ function App(){
             
           
         
-        </body>
+        </div>
         
     )
 }
