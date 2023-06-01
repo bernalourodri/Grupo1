@@ -8,6 +8,9 @@ import Sobre from './pages/Sobre';
 import Cadastro from './pages/Cadastro';
 import Dashboard from './pages/Dashboard';
 import ChamadosEMA from './pages/ChamadosEMA';
+import Sobrenos from './pages/Sobrenos';
+import Suporte from './pages/Suporte'
+
 
 const rotas = createBrowserRouter([
   {
@@ -33,6 +36,16 @@ const rotas = createBrowserRouter([
   {
     path:"/chamados",
     element:<ChamadosEMA />
+  }
+  ,
+  {
+    path:"/sobrenos",
+    element:<Sobrenos />
+  }
+  ,
+  {
+    path:"/suporte",
+    element:<Suporte />
   }
 ])
 

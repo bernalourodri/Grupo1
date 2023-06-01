@@ -10,6 +10,8 @@ const Menu = () =>(
         <Link to = "/cadastro">Cadastro</Link>
         <Link to = "/dashboard">Dashboards</Link>
         <Link to = "/chamados">Chamados</Link>
+        <Link to = "/sobrenos">Sobre nós</Link>
+        <Link to = "/suporte">Suporte</Link>
     </MeuNav>
   </Container>
 )

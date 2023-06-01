@@ -1,11 +1,18 @@
 import { Container, Descricao, Momento, Simbolo } from "./style";
 
-const Cartao = ()=> (
+const Cartao1 = ()=> (
     <Container>
-        <Simbolo>wdsuabduas</Simbolo>
-        <Descricao>departamento</Descricao>
-        <Momento>tecnologia</Momento>
+        <Simbolo>Entrega</Simbolo>
+        <Descricao>Departamento</Descricao>
+        <Momento>Tecnologia</Momento>
+    </Container>
+);
+const Cartao2 = ()=> (
+    <Container>
+        <Simbolo>Entrega feita</Simbolo>
+        <Descricao>Departamento</Descricao>
+        <Momento>Comercial</Momento>
     </Container>
 );
 
-export default Cartao;
+export {Cartao1,Cartao2};
