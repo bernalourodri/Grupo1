@@ -2,9 +2,13 @@ import { Container, Descricao, Momento, Simbolo } from "./style";
 
 const Cartao1 = ()=> (
     <Container>
-        <Simbolo>Entrega</Simbolo>
-        <Descricao>Departamento</Descricao>
-        <Momento>Tecnologia</Momento>
+        <Simbolo>Departamento tecnologia</Simbolo>
+        
+        <Descricao>Suporte tecnico</Descricao>
+        <Momento>Espero que esta mensagem encontre vocês bem.
+         Meu nome é joao e sou representante da empresa micrmoeros. 
+          Gostaria de solicitar o suporte técnico para resolver um problema
+            que estamos enfrentando em relação ao nosso aplicativo.</Momento>
     </Container>
 );
 const Cartao2 = ()=> (

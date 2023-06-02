@@ -19,6 +19,9 @@ const FormContainer = styled.div`
   border-radius: 25 px;
   align-items: left;
   background-color: #fff;
+
+  
+  ;
 `;
 
 export  {Container,FormContainer};
