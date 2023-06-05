@@ -8,7 +8,7 @@ const Container = styled.div`
       flex-direction: row;
       font-size: large;
    }
-   height: 100vh;
+   height: 150vh;
    display: flex;
    justify-content: center;
    align-items: center;
