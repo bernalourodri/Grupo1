@@ -1,12 +1,19 @@
 import styled from "styled-components";
 import Cadastro from "./Cadastro";
 
+const tamTablet = 768;
+
 const Container = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background: linear-gradient(135deg, #d4145a, #fbb03b);
+   @media screen and (min-width: ${tamTablet}px){
+      flex-direction: row;
+      font-size: large;
+   }
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #264D70;
+  
 `;
 
 const FormContainer = styled.div`
@@ -17,18 +24,12 @@ const FormContainer = styled.div`
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 `;
 
-const Label = styled.label`
-  font-weight: bold;
-  margin-bottom: 5px;
-`;
-
 const Input = styled.input`
-  border: none;
-  border-radius: 4px;
+  width: 100%;
+  margin-bottom: 10px;
   padding: 10px;
-  margin-bottom: 20px;
-  font-size: 16px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  border: solid 0.5px grey;
 `;
 
 const ErrorMessage = styled.span`
@@ -37,14 +38,18 @@ const ErrorMessage = styled.span`
   margin-top: 5px;
 `;
 
-const SubmitButton = styled.button`
-  background-color: #d4145a;
+const Button = styled.button`
+  width: 100%;
+  padding: 10px;
+  border-radius: 25px;
   border: none;
-  border-radius: 4px;
+  background-color: #264D70;
   color: #fff;
-  font-size: 16px;
-  padding: 10px 20px;
   cursor: pointer;
+
+  &:hover {
+    background-color: blue;
+  }
 `;
 
 const Title = styled.h1`
@@ -53,5 +58,13 @@ const Title = styled.h1`
   margin-bottom: 20px;
 `;
 
+const Drop = styled.select`
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 25px;
+  border: solid 0.5px grey;
+`;
 
-export {Container, FormContainer, Label, Input, ErrorMessage, SubmitButton, Title}
+export {Container, FormContainer, Input, ErrorMessage, Button, Title,Drop}
+
