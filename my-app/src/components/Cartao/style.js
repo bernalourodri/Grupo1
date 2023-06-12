@@ -1,10 +1,14 @@
 import styled from "styled-components";
 
+const Status = styled.span`
+    font-family: Arial, Helvetica, sans-serif;
+`;
+
 
 const Container = styled.div`
     border-radius: 5px;
     border: solid 1px black;
-
+    background-color: white;
     display: flex;
     flex-direction: column;
     column-gap: 1em;
@@ -17,7 +21,7 @@ const Container = styled.div`
 `;
 
 const Simbolo = styled.span`
-    font-weight: bolder;
+    font-weight:normal;
     text-align: center;
     font-size: x-large;
 
@@ -27,7 +31,6 @@ const Simbolo = styled.span`
 `;
 
 const Descricao = styled.span`
-    font-style: italic;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -35,7 +38,7 @@ const Descricao = styled.span`
 `;
 
 const Momento = styled.span`
-    font-family: monospace;
+    font-family: Arial, Helvetica, sans-serif;
 `;
 
-export { Container, Simbolo, Descricao, Momento };
+export { Container, Simbolo, Descricao, Momento,Status };

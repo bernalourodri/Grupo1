@@ -1,6 +1,18 @@
 import React from 'react';
-import {BarChart,Bar, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend ,PieChart, Pie, Cell, ResponsiveContainer} from 'recharts';
+import {BarChart,Bar, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend ,PieChart, Pie, Cell} from 'recharts';
 import styled from 'styled-components';
+
+const Grafico = styled.div`
+  @media screen and (max-width:768px){
+    display: grid;
+    flex-direction: column;
+    grid-template-columns:1fr;
+   }
+
+`
+
+
+
 
 
 const DashboardContainer = styled.div`
@@ -82,7 +94,7 @@ function Chart2() {
   return (
     <ChartContainer>
       <ChartTitle>
-        <div><h2>Taxa de Solução no primeiro</h2></div>
+        <div><h2>Taxa de Solução no primeiro contato</h2></div>
       </ChartTitle>
         <BarChart width={400} height={300} data={data}>
           <XAxis dataKey="name" />
@@ -128,9 +140,39 @@ function Chart3(){
         </ ChartContainer>
     );
   };
+  function Chart4(){
+    const data = [
+      { name: 'Jan', uv: 4000, pv: 2400, amt: 2400 },
+      { name: 'Fev', uv: 3000, pv: 1398, amt: 2210 },
+      { name: 'Mar', uv: 2000, pv: 9800, amt: 2290 },
+      { name: 'Abr', uv: 2780, pv: 3908, amt: 2000 },
+      { name: 'Mai', uv: 1890, pv: 4800, amt: 2181 },
+      { name: 'Jun', uv: 2390, pv: 3800, amt: 2500 },
+      { name: 'Jul', uv: 3490, pv: 4300, amt: 2100 },
+    ];
+    
+   
+      return (
+        <ChartContainer>
+       <ChartTitle>
+          <div><h2>Tempo médio de solução</h2></div>
+        </ChartTitle>
+        <BarChart width={600} height={300} data={data}>
+          <CartesianGrid strokeDasharray="3 3" />
+          <XAxis dataKey="name" />
+          <YAxis />
+          <Tooltip />
+          <Legend />
+          <Bar dataKey="uv" fill="#8884d8" />
+          <Bar dataKey="pv" fill="#82ca9d" />
+          <Bar dataKey="amt" fill="#ffc658" />
+        </BarChart>
+        </ChartContainer>
+      );
+  };
 
   
 
-export  {Chart,Chart2,Chart3,DashboardContainer, ChartContainer};
+export  {Chart,Chart2,Chart3,Chart4,DashboardContainer, ChartContainer,Grafico};
 
   

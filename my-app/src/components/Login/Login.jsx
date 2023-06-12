@@ -1,5 +1,5 @@
 import { MeuNav } from "./style";
-
+import { Link } from "react-router-dom";
 import {Container, FormContainer, Input, Button} from "./style";
 
 
@@ -13,7 +13,7 @@ function Login(){
                 <Input type="password" placeholder="Senha" />
                 <input type="checkbox" id = "lembrardemim" name = "lembrardemim" value = "lembrardemim" />
                 <label for = "lembrardemim">Lembrar de mim</label>
-                <Button>Login</Button>
+                <Link to ="/sobre"><Button>Login</Button></Link>
         </FormContainer>
     </Container>
     </div>

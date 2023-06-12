@@ -25,6 +25,9 @@ function Suporte() {
      Nossa missão é oferecer um suporte excepcional, garantindo que você esteja sempre satisfeito e obtenha o máximo valor do nosso aplicativo. Estamos aqui para ajudar 24 horas por dia, 7 dias por semana, para que você possa contar conosco a qualquer momento.
 
       Agradecemos por escolher nosso aplicativo e confiar em nossa equipe de suporte. Estamos ansiosos para atendê-lo e tornar sua experiência com nosso aplicativo a melhor possível. Não hesite em entrar em contato conosco sempre que precisar de ajuda. Estamos aqui para você!</p>
+
+      <h3>Entre em contato com o nosso e-mail para podermos ajudar</h3>
+      <p>Grupo1@gmail.com</p>
         </FormContainer>
      </Container>
       </div>

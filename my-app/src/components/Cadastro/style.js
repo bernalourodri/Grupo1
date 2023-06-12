@@ -1,10 +1,16 @@
 import styled from "styled-components";
 import Cadastro from "./Cadastro";
 
-const tamTablet = 768;
+const ResponsiveComponent = styled.div`
+
+display: grid;
+columns: unset;
+`;
+
+
 
 const Container = styled.div`
-   @media screen and (min-width: ${tamTablet}px){
+   @media screen and (min-width: 768px){
       flex-direction: row;
       font-size: large;
    }
@@ -66,5 +72,5 @@ const Drop = styled.select`
   border: solid 0.5px grey;
 `;
 
-export {Container, FormContainer, Input, ErrorMessage, Button, Title,Drop}
+export {Container, FormContainer, Input, ErrorMessage, Button, Title,Drop,ResponsiveComponent}
 

@@ -1,11 +1,11 @@
 import React from 'react';
-import {Chart,Chart2, Chart3, DashboardContainer, ChartContainer} from './style';
+import {Chart,Chart2, Chart3,Chart4, DashboardContainer, ChartContainer, Grafico} from './style';
 
 
 function Dashboards() {
   return (
     
-   <div>
+  <Grafico>
     <DashboardContainer>
       <ChartContainer>
         <Chart />
@@ -16,9 +16,12 @@ function Dashboards() {
       <ChartContainer>
         <Chart3 />
       </ChartContainer>
+      <ChartContainer>
+        <Chart4 />
+      </ChartContainer>
     </DashboardContainer>
-      
-    </div>
+      </Grafico>
+    
   );
 }
 
