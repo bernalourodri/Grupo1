@@ -1,0 +1,54 @@
+
+[
+    {
+        "descricao": "Gostaríamos de relatar um problema de conectividade de rede que estamos enfrentando em nossa empresa ",
+        "departamento":"Departamento: Tecnolgia",
+        "data":"3/02/2023",
+        "status":"Status: Aberto"
+        
+    },
+    {
+        "descricao": "Gostaríamos de reportar um problema relacionado à uma  máquina . Nos últimos dias, notamos que a máquina tem apresentado um desempenho abaixo do esperado, resultando em atrasos",
+        "departamento":"Departamento: Operacional",
+        "data":"15/01/2023",
+        "status":"Status: Fechado"
+    },
+    {
+        "descricao": "Gostaríamos de solicitar um orçamento para a realização de um projeto de marketing digital para nossa empresa",
+        "departamento":"Departamento: Comercial",
+        "data":"5/01/2023",
+        "status":"Status: Aberto"
+    },
+    {
+        "descricao": "Estamos interessados ​​em conhecer mais sobre os produtos/serviços oferecidos pela sua empresa e solicitar informações adicionais para auxiliar em nossa tomada de decisão",
+        "departamento":"Departamento: Comercial",
+        "data":"10/03/2023",
+        "status":"Status: Aberto"
+    }
+    ,{
+        "descricao": "Gostaríamos de solicitar suporte técnico para lidar com um problema de hardware que estamos enfrentando em um dos computadores do nosso departamento",
+        "departamento":"Departamento: Tecnolgia",
+        "data":"13/03/2023",
+        "status":"Status: Fechado"
+    }
+    ,
+    {
+        "descricao": "Solicitar suprimentos essenciais para o funcionamento adequado do nosso setor de operações. Atualmente, estamos enfrentando escassez de alguns materiais e equipamentos",
+        "departamento":"Departamento: Operacional",
+        "data":"15/03/2023",
+        "status":"Status: Fechado"
+    }
+    ,{
+        "descricao": "Gostaria de informar um incidente de segurança que ocorreu no local de trabalho e solicitar ações corretivas adequadas para prevenir futuros incidentes",
+        "departamento":"Departamento: Operacional",
+        "data":"16/03/2023",
+        "status":"Status: Fechado"
+    }
+    ,  {
+        "descricao": "Estamos interessados em adquirir uma quantidade significativa de produtos e gostaríamos de solicitar uma cotação para o fornecimento dos mesmos",
+        "departamento":"Departamento: Comercial",
+        "data":"10/03/2023",
+        "status":"Status: Aberto"
+    }
+]
+

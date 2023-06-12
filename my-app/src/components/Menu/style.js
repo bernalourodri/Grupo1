@@ -1,6 +1,10 @@
 import styled from "styled-components";
 
 const MeuNav = styled.nav`
+  @media screen and (min-width: 768px){
+      flex-direction:row;
+      font-size: large;
+   }
     flex-direction: row;
     gap: 2em;
     padding: 10px;

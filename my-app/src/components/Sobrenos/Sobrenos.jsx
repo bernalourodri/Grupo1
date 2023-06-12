@@ -27,6 +27,14 @@ function Sobrenos() {
 
   Agradecemos pela oportunidade de trabalhar com você e estamos dedicados a fornecer uma solução de aplicativo excepcional. Contem conosco para tornar a sua visão em realidade.</p>
      
+
+  <img src="file2.jpg" style={{ width: '200px', height: 'auto', borderRadius: '10px' }} />
+  <img src="file3.jpg" style={{ width: '200px', height: 'auto', borderRadius: '10px' }} />
+  <img src="file.jpg" style={{ width: '200px', height: 'auto', borderRadius: '10px' }} />
+  <img src="file4.jpg" style={{ width: '200px', height: 'auto', borderRadius: '10px' }} />
+  <img src="file5.jpg" style={{ width: '200px', height: 'auto', borderRadius: '10px' }} />
+ 
+  
       </div>
       </FormContainer>
       </Container>

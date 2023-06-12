@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 const Header = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
 
@@ -7,8 +8,8 @@ const Header = () => {
   };
 
   return (
-    <header style={styles.header}>
-      <img src="micrmeoq.png" alt="Logo" style={styles.logo} />
+   <header style={styles.header}>
+       <Link to ="/"><img src="micrmeoq.png" alt="Logo" style={styles.logo} /></Link>
       <nav className={`menu ${isMenuOpen ? 'open' : ''}`} style={styles.menu}>
         {/* Coloque aqui os itens do menu */}
       </nav>
@@ -22,6 +23,7 @@ const Header = () => {
         <div className="bar" style={styles.bar}></div>
       </div>
     </header>
+    
   );
 };
 

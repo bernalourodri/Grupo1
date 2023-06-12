@@ -1,9 +1,10 @@
 import Menu from "../Menu/Menu";
 import { MeuNav } from "./style";
-import { Container, FormContainer, Input, ErrorMessage, Button, Title, Drop} from "./style";
+import { Container, FormContainer, Input, ErrorMessage, Button, Title, Drop,ResponsiveComponent} from "./style";
 
 function Cadastro(){
     return(
+      <ResponsiveComponent>
       <Container>
         <FormContainer>
           <h1>Cadastro</h1>
@@ -19,7 +20,7 @@ function Cadastro(){
           <Button>Cadastro</Button>
         </FormContainer>
     </Container>
-        
+    </ResponsiveComponent>
     )
 }
 export default Cadastro ;
