@@ -11,10 +11,6 @@ const Grafico = styled.div`
 
 `
 
-
-
-
-
 const DashboardContainer = styled.div`
   background-color: #264D70;
   padding: 20px;

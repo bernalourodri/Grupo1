@@ -11,7 +11,7 @@ columns: unset;
 
 const Container = styled.div`
    @media screen and (min-width: 768px){
-      flex-direction: row;
+      flex-direction: column;
       font-size: large;
    }
    height: 100vh;
@@ -19,7 +19,7 @@ const Container = styled.div`
    justify-content: center;
    align-items: center;
    background-color: #264D70;
-  
+   
 `;
 
 const FormContainer = styled.div`
