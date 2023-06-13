@@ -5,7 +5,7 @@ const MeuNav = styled.nav`
       flex-direction:row;
       font-size: large;
    }
-    flex-direction: row;
+    flex-direction: column;
     gap: 2em;
     padding: 10px;
     display: flex;

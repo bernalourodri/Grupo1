@@ -2,9 +2,10 @@ import {Container, FormContainer } from "./style";
 
 function Sobrenos() {
     return (
-      <Container>
-        <FormContainer>
      <div>
+     <Container>
+        <FormContainer>
+     
       <img src="grupo1.png"></img>
      
      <h1>Sobre nós</h1>
@@ -35,10 +36,10 @@ function Sobrenos() {
   <img src="file5.jpg" style={{ width: '200px', height: 'auto', borderRadius: '10px' }} />
  
   
-      </div>
+      
       </FormContainer>
       </Container>
-      
+      </div>
     );
   }
   
